@@ -3,4 +3,4 @@
   hosts: all
   gather_facts: true
   roles:
-    - { role: wittdennis.template_role }
+    - { role: repo-template-ansible-role } # noqa: syntax-check[specific]
