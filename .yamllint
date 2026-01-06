@@ -13,4 +13,6 @@ rules:
     max-spaces-inside: 1
     max-spaces-inside-empty: 0
   comments-indentation: disable
-  octal-values: enable
+  octal-values:
+    forbid-explicit-octal: false
+    forbid-implicit-octal: true
